@@ -103,7 +103,7 @@ textarea {
     background-color: white;
 }
 
-#buffer-div {
+.buffer-div {
     padding: 4px;
 }
 
@@ -111,9 +111,6 @@ body {
     background-image: url("http://www.intrawallpaper.com/static/images/1968081.jpg");
 }
 
-a {
-    color: inherit;
-}
 
 
 
