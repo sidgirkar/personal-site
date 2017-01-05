@@ -100,19 +100,20 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-
+    background-color: white;
 }
 
 #buffer-div {
     padding: 4px;
 }
 
+body {
+    background-image: url("http://www.intrawallpaper.com/static/images/1968081.jpg");
+}
 
-
-
-
-
-
+a {
+    color: inherit;
+}
 
 
 
