@@ -100,7 +100,7 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: white;
+    background-color: #f9f6ee;
     width: 40%;
     height: 75%
 }
