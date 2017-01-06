@@ -102,7 +102,8 @@ textarea {
     transform: translateX(-50%) translateY(-50%);
     background-color: #f9f6ee;
     width: 40%;
-    height: 75%
+    height: 75%;
+    border: solid 2px black;
 }
 
 .buffer-div {
@@ -110,12 +111,8 @@ textarea {
 }
 
 body {
-    background-image: url("http://www.intrawallpaper.com/static/images/1968081.jpg");
+    background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");
 }
-
-
-
-
 
 /* ==========================================================================
    Helper classes
