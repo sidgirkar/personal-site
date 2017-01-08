@@ -111,7 +111,8 @@ textarea {
 }
 
 body {
-    background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");
+    /*background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");*/
+    background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
 }
 
 @media only screen and (max-device-width: 320px) {
