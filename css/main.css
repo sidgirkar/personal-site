@@ -95,56 +95,182 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@media only screen and (min-width: 1100px) {
-    #main-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        background-color: #f9f6ee;
-        width: 40%;
-        height: 75%;
-        border: solid 2px black;
-    }
-
-    .buffer-div {
-        padding: 4px;
-    }
-
-    body {
-        background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");
-        /*background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");*/
-    }
+#home {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4ABDAC;
+    margin-bottom: 0px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1100px) {
-    /*#main-text {*/
-        /*position: absolute;*/
-        /*top: 50%;*/
-        /*left: 50%;*/
-        /*transform: translateX(-50%) translateY(-50%);*/
-        /*background-color: #f9f6ee;*/
-        /*width: 40%;*/
-        /*height: 75%;*/
-        /*border: solid 2px black;*/
-    /*}*/
-
-    #main-text {
-        width: 100%;
-        height: 100%;
-        background-color: #f9f6ee;
-    }
-
-    .buffer-div {
-        padding: 4px;
-    }
-
-    body {
-        /*background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");*/
-        /*background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");*/
-        background-color: #f9f6ee;
-    }
+.headerTextWhite {
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
 }
+
+.headerTextBlack {
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+.expTitle {
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#expDescription {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.backDescription {
+    font-family: 'Lato', sans-serif;
+}
+
+.resDescription {
+    font-size: 20px;
+}
+
+#wordsPitch {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border: 1px solid white;
+    text-align: left;
+    margin: 0px 12px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+#break {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+#wordsFunFacts {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    border: 1px solid white;
+    text-align: left;
+    margin: 0px 12px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.web-header {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#aboutContainer {
+    /*height: 100vh;*/
+    text-align: center;
+    background-color: #E37222;
+}
+
+#experienceContainer {
+    /*height: 100vh;*/
+    text-align: center;
+    background-color: #CAEBF2
+}
+
+#linkContainer {
+    /*height: 100vh;*/
+    text-align: center;
+    background-color: #286DA8
+}
+
+#linkCaption {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 36px;
+}
+
+#imageDesc {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imLink {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+.image-jumbo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-caption {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.img-caption {
+    color: white;
+    font-size: 12px;
+}
+
+#larabiaJumbo {
+    background-image: url("../img/larabia.jpg");
+}
+
+#brunnerJumbo {
+    background-image: url("../img/brunner.jpg");
+}
+
+#jParkJumbo {
+    background-image: url("../img/jpark.jpg");
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #F0EAD6;
+}
+
+.descriptor {
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+
 
 /* ==========================================================================
    Helper classes
