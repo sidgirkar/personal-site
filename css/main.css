@@ -105,6 +105,11 @@ textarea {
     margin-bottom: 0px;
 }
 
+.home-link {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
 .headerTextWhite {
     font-size: 48px;
     font-family: 'Lato', sans-serif;
