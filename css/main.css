@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#home {
+#homeJumbo {
     height: 100vh;
     text-align: center;
     display: flex;
@@ -245,15 +245,15 @@ textarea {
     font-size: 12px;
 }
 
-#larabiaJumbo {
+#larabia {
     background-image: url("../img/larabia.jpg");
 }
 
-#brunnerJumbo {
+#brunner {
     background-image: url("../img/brunner.jpg");
 }
 
-#jParkJumbo {
+#jpark {
     background-image: url("../img/jpark.jpg");
 }
 
