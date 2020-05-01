@@ -21,30 +21,6 @@
         <script src="js/vendor/smooth-scroll.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a style="font-family: 'Lato', sans-serif;" class="navbar-brand" href="#home">Home</a>
-                </div>
-                <div class="collapse navbar-collapse" id="navBar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a style="font-family: 'Lato', sans-serif;" href="#about">About</a></li>
-                        <li><a style="font-family: 'Lato', sans-serif;" href="#experience">Experience</a></li>
-                        <li><a style="font-family: 'Lato', sans-serif;" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
         <div id="home">
             <div class="jumbotron" id="homeJumbo">
@@ -56,246 +32,46 @@
                         <h1 style="display:inline-block; color: white;" id="websiteTitle" class="web-header"></h1>
                     </div>
                     <div class="container">
-                        <div class="row" style="margin-top: 30px;">
+                        <div class="row align-items-center" style="padding-bottom: 42px; margin-top: 21px;">
                             <div class="col-sm-4">
-                                <h3 class="home-link"><a style="font-family: 'Lato', sans-serif; color: white;" href="#about">About</a></h3>
+
                             </div>
                             <div class="col-sm-4">
-                                <h3 class="home-link"><a style="font-family: 'Lato', sans-serif; color: white;" href="#experience">Experience</a></h3>
-                            </div>
-                            <div class="col-sm-4">
-                                <h3 class="home-link"><a style="font-family: 'Lato', sans-serif; color: white;" href="#contact">Contact</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="jumbotron image-jumbo"  style="margin-bottom: 0px;" id="larabia"></div>
-
-        <span class="anchor" id="about"></span>
-        <div id="aboutContainer">
-            <div id="aboutHeader">
-                <h1 class="headerTextWhite"><b>About Me</b></h1>
-            </div>
-            <div id="wordsAboutMe">
-                <div id="pitch">
-                    <p id="wordsPitch"><i>
-                        "I'm a junior at the University of California, Berkeley, studying Electrical Engineering and
-                        Computer Science. I'm interested in full-stack software development, and I've got experience in Java,
-                        Python, HTML, CSS, and JavaScript, along with frameworks and packages like jQuery, React, Angular,
-                        Bootstrap, Node.js, Grunt, and Webpack. I'm a logical thinker who loves to learn new things on the job
-                        and apply them to whatever I'm working on."
-                    </i></p>
-                </div>
-                <h3 id="break">But you can ascertain all that from my
-                    <a style="color: black" href="https://www.dropbox.com/s/kdeb9zx74go64y1/Sid%27s%20Resume.pdf?raw=1">resume!</a><br>
-                    Here's a few of my favorite fun facts:</h3>
-                <div id="funFacts" style="padding-bottom: 42px;">
-                    <p id="wordsFunFacts"><b>
-                        I collect magnets from every place I've visited. <br>
-                        I can perform a few yo-yo tricks. <br>
-                        I wore shorts every day for an entire year of high school. <br>
-                        I grew up primarily in Cupertino but I'm a diehard Boston sports fan. <br>
-                        I'm a proud cinephile and sporadically publish movie reviews on my
-                        <a style="color: black" href="https://sidgirkar.wordpress.com/">blog.</a> <br>
-                        And finally, I listen to tons of tropical house and read tons of mystery novels.
-                    </b></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="jumbotron image-jumbo" style="margin-bottom: 0px;" id="brunner"></div>
-
-        <span class="anchor" id="experience"></span>
-        <div id="experienceContainer">
-            <div id="experienceHeader">
-                <h1 class="headerTextBlack"><b>My Experience</b></h1>
-            </div>
-            <div id="mainExperience">
-                <h3 id="expDescription">
-                    Here's a visual overview of all my internships, research, and projects. <br>
-                    Click on each image to learn a bit more. <br>
-                    Check out my <a href="https://www.dropbox.com/s/kdeb9zx74go64y1/Sid%27s%20Resume.pdf?raw=1">resume</a>
-                    for more detailed descriptions.
-                </h3>
-                <div id="internships" class="exp">
-                    <h1 class="expTitle">Internships</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="flip">
-                                    <div class="front">
-                                        <img src="img/rubrik.png" style="align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                    </div>
-                                    <div class="back">
-                                        <div class="descriptor">
-                                            <h1 class="backDescription">Rubrik, Inc.</h1>
-                                        </div>
-                                    </div>
+                                <div class="col-sm-2">
+                                <a href="mailto:smgirkar@berkeley.edu?" style="color: white;">
+                                    <i class="fa fa-envelope-o fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Email"></i>
+                                </a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="https://github.com/sidgirkar" title="Github" style="color: white;" target="_blank">
+                                        <i class="fa fa-github fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="GitHub"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="https://www.dropbox.com/s/kdeb9zx74go64y1/Sid%27s%20Resume.pdf?raw=1" title="Resume" style="color: white;" target="_blank">
+                                        <i class="fa fa-file-text-o fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Resume"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="https://sidgirkar.wordpress.com/" style="color: white;" target="_blank">
+                                        <i class="fa fa-rss fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Blog"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="https://www.linkedin.com/in/sidgirkar" title="LinkedIn" style="color: white;" target="_blank">
+                                        <i class="fa fa-linkedin-square fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="LinkedIn"></i>
+                                    </a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a href="http://open.spotify.com/user/sidgirkar" style="color: white;" target="_blank">
+                                        <i class="fa fa-spotify fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Spotify"></i>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <div class="flip">
-                                    <div class="front">
-                                        <img src="img/paypal.svg" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                    </div>
-                                    <div class="back">
-                                        <div class="descriptor">
-                                            <h1 class="backDescription">PayPal, Inc.</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="flip">
-                                    <div class="front">
-                                        <img src="img/omlet.png" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                    </div>
-                                    <div class="back">
-                                        <div class="descriptor">
-                                            <h1 class="backDescription">Omlet, Inc.</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="research" class="exp">
-                    <h1 class="expTitle">Research</h1>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="flip">
-                                    <div class="front">
-                                        <img src="img/tensegrity.jpg" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                    </div>
-                                    <div class="back">
-                                        <div class="descriptor">
-                                            <h1 class="backDescription resDescription">Berkeley Emergent Space Tensegrities Lab</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="flip">
-                                    <div class="front">
-                                        <img src="img/bids.png" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                    </div>
-                                    <div class="back">
-                                        <div class="descriptor">
-                                            <h1 class="backDescription resDescription">Berkeley Institute for Data Science</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="projects" class="exp">
-                <h1 class="expTitle">Projects</h1>
-                <div class="container">
-                    <div class="row" style="padding-bottom: 42px;">
-                        <div class="col-sm-6">
-                            <div class="flip">
-                                <div class="front">
-                                    <img src="img/editor.png" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                </div>
-                                <div class="back">
-                                    <div class="descriptor">
-                                        <h1 class="backDescription">Text Editor</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="flip">
-                                <div class="front">
-                                    <img src="img/sixt33n.jpg" style=" align:middle; width:120px; height:120px;
-                                    margin-top:21px;">
-                                </div>
-                                <div class="back">
-                                    <div class="descriptor">
-                                        <h1 class="backDescription">SIXT33N Robot</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
 
-        <div class="jumbotron image-jumbo" style="margin-bottom: 0px;" id="jpark"></div>
-
-        <span class="anchor" id="contact"></span>
-        <div id="linkContainer">
-            <div id="linkHeader">
-                <h1 class="headerTextWhite">Assorted Links</h1>
-                <h3 id="linkCaption">
-                    There's an icon for every occasion, from my
-                    <a href="mailto:smgirkar@berkeley.edu?" style="color: yellow">email</a>
-                    to my
-                    <a href="http://open.spotify.com/user/sidgirkar" style="color: greenyellow">Spotify playlists.</a><br>
-                    Feel free to click on whatever you're interested in!
-                </h3>
-                <div class="container">
-                    <div class="row" style="padding-bottom: 42px;">
-                        <div class="col-sm-2">
-                            <a href="mailto:smgirkar@berkeley.edu?" style="color: white;">
-                                <i class="fa fa-envelope-o fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Email"></i>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-sm-2">
-                            <a href="https://github.com/sidgirkar" title="GitHub" style="color: white;" target="_blank">
-                                <i class="fa fa-github fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="GitHub"></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://www.dropbox.com/s/kdeb9zx74go64y1/Sid%27s%20Resume.pdf?raw=1" title="Resume" style="color: white;" target="_blank">
-                                <i class="fa fa-file-text-o fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Resume"></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://sidgirkar.wordpress.com/" style="color: white;" target="_blank">
-                                <i class="fa fa-rss fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Blog"></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="https://www.linkedin.com/in/sidgirkar" title="LinkedIn" style="color: white;" target="_blank">
-                                <i class="fa fa-linkedin-square fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="LinkedIn"></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-2">
-                            <a href="http://open.spotify.com/user/sidgirkar" style="color: white;" target="_blank">
-                                <i class="fa fa-spotify fa-3x text-center" aria-hidden="true" data-toggle="tooltip" title="Spotify"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
-            <h1 id="imageDesc"><b>Links to the movie stills, if you'd like to view them again.</b></h1>
-            <div class="container">
-                <div class="row" style="padding-bottom: 20px;">
-                    <div class="col-sm-4">
-                        <a href="#larabia" class="imLink"><i>Lawrence of Arabia</i></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#brunner" class="imLink"><i>Blade Runner</i></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="#jpark" class="imLink"><i>Jurassic Park</i></a>
                     </div>
                 </div>
             </div>
